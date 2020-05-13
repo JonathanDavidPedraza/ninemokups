@@ -1,0 +1,49 @@
+.navbar{
+    background-color: #878B96;
+    width: 110%;
+    height: 60px;
+    float: left;
+}
+
+.btn-group .button {
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    float: left;
+    margin: 5px
+}
+
+.btn-group .button:not(:last-child) {
+    border-right: none;
+}
+
+.btn-group .button:hover {
+    background-color: #EAD018;
+}
+
+#content{
+    padding: 50px 50px;
+    float: left;
+    background-color: #231F20;
+    width: 100%;
+    height:1300px
+}
+
+.actividades{
+	background-color: #A01C1C;
+    width: 60%;
+    height: 1150px;
+    float: left;
+    text-decoration: none;
+ }
+.publicidad{
+    background-color: #606266;
+    width: 32%;
+    height: 1150px;
+    float: left;

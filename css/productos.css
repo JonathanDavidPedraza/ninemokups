@@ -1,0 +1,60 @@
+.navbar{
+    background-color: #878B96;
+    width: 110%;
+    height: 60px;
+    float: left;
+}
+.btn-group .button {
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    float: left;
+    margin: 5px
+}
+.btn-group .button:not(:last-child) {
+    border-right: none;
+}
+.btn-group .button:hover {
+    background-color: #EAD018;
+}
+#content{
+    padding: 50px;
+    float: left;
+    background-color: #231F20;
+    width: 100%;
+    height:800px
+}
+#video, video{
+    margin: -20px auto;
+    margin-right: 300px;
+    padding-top: 20px;
+    width: 1000px;
+    height: 500px
+}
+#caja3{
+    margin: 50px 0px;
+    float: left;
+    width: 93%;
+    height: 250px;
+}
+
+#cajape{
+    float: right;
+    margin-right: 100px;
+    width: 40%;
+    height: 200px;
+}
+
+#texto3{    
+    color: white;
+}
+
+section{
+    padding: 20px
+}

@@ -1,0 +1,116 @@
+.navbar{
+    background-color: #878B96;
+    width: 110%;
+    height: 60px;
+    float: left;
+}
+
+.btn-group .button {
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    float: left;
+    margin: 5px
+}
+
+.btn-group .button:not(:last-child) {
+    border-right: none;
+}
+
+.btn-group .button:hover {
+    background-color: #EAD018;
+}
+
+#content{
+    padding: 50px;
+    float: left;
+    background-color: #231F20;
+    width: 100%;
+    height:1200px
+}
+
+.slider{
+    float: right;
+    margin-right: 280px;
+    width: 70%;
+    overflow: hidden;
+}
+
+.slider ul{
+    display: flex;
+    padding: 0;
+    width: 500%;
+    animation: cambio 20s infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+}
+
+.slider li{
+    width: 100%;
+    list-style: none;
+}
+
+.slider img{
+    width: 100%;
+    height: 550px
+}
+
+@keyframes cambio {
+    0%{margin-left: 0;}
+    20%{margin-left: 0;}
+
+    25%{margin-left: -100%;}
+    45%{margin-left: -100%;}
+
+    50%{margin-left: -200%;}
+    70%{margin-left: -200%;}
+
+    75%{margin-left: -300%;}
+    100%{margin-left: -300%;}
+
+    105%{margin-left: -400%;}
+    125%{margin-left: -400%;}
+}
+
+#caja4{
+    float: left;
+    width: 30%;
+    height: 140px;
+    color: white;
+    margin: 0px 50px;
+ }
+
+ #texto1{
+    color: white;
+    font-size: 25px
+ }
+
+ #imagenes{
+    background-color: #f36523;
+    display: flex;
+    float: left;
+    margin: 10px;
+    height: 140px;
+}
+
+#caja5{
+    color: white;
+    float: left;
+    width: 30%;
+    margin: 150px;
+    margin-left: 300px
+}
+
+#imagenes2{
+ 
+    display: flex;
+    float: left;
+    margin: 10px;
+    height: 140px;
+}

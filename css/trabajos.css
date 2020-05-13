@@ -1,0 +1,82 @@
+.navbar{
+    background-color: #878B96;
+    width: 110%;
+    height: 60px;
+    float: left;
+}
+
+.btn-group .button {
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    float: left;
+    margin: 5px
+}
+
+.btn-group .button:not(:last-child) {
+    border-right: none;
+}
+
+.btn-group .button:hover {
+    background-color: #EAD018;
+}
+ #content{
+ 	padding: 50px;
+ 	float: left;
+	background-color: #231F20;
+	width: 100%;
+	height: 1500px;
+
+ }
+ #caja1{
+    background-color: #f36523;
+    display: flex;
+    float: left;
+    margin: 20px;
+    width: 30%;
+    height: 250px;
+}
+#texto3{
+	float: left;
+    color: white;
+    margin: 50px 30px;
+    width: 600px;
+    font-size: 20px
+}
+
+#caja2{
+	float: left;
+	margin-top: 20px;
+	width: 92%;
+	height: 750px
+ }
+
+ #caja3{
+ 	float: left;
+ 	width: 55%;
+ 	height: 300px;
+ 	font-size: 25px;
+ 	color: white;
+
+ }
+ #caja4{
+ 	float: left;
+ 	width: 30%;
+ 	height: 140px;
+ 	color: white;
+ 	margin: 0px 50px;
+ }
+ #imagenes{
+ 	background-color: #f36523;
+    display: flex;
+    float: left;
+    margin: 10px;
+    height: 140px;
+}
+ 

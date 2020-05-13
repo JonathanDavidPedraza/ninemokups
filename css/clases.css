@@ -1,0 +1,144 @@
+.navbar{
+    background-color: #878B96;
+    width: 110%;
+    height: 60px;
+    float: left;
+}
+
+.btn-group .button {
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    float: left;
+    margin: 5px
+}
+
+.btn-group .button:not(:last-child) {
+    border-right: none;
+}
+
+.btn-group .button:hover {
+    background-color: #EAD018;
+}
+
+#content{
+    padding: 50px;
+    float: left;
+    background-color: #231F20;
+    width: 100%;
+    height:1100px
+}
+
+ .botones .button {
+    background-color: #464649;
+    border: 1px solid gray;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    width: 30%;
+    display: block;
+}
+
+.botones .button:not(:last-child) {
+    border-bottom: none;
+}
+
+.botones .button:hover {
+    background-color: #FF6600;
+}
+
+.slider{
+    float: left;
+    width: 50%;
+    overflow: hidden;
+    float: right;
+    margin-right: 180px;
+    margin-top: -840px;
+}
+
+.slider ul{
+    display: flex;
+    padding: 0;
+    width: 400%;
+    animation: cambio 20s infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+}
+.slider li{
+    width: 100%;
+    list-style: none;
+}
+.slider img{
+    width: 100%;
+    height: 450px
+}
+@keyframes cambio {
+    0%{margin-left: 0;}
+    20%{margin-left: 0;}
+
+    25%{margin-left: -100%;}
+    45%{margin-left: -100%;}
+
+    50%{margin-left: -200%;}
+    70%{margin-left: -200%;}
+
+    75%{margin-left: -300%;}
+    100%{margin-left: -300%;}
+}
+
+#caja2{
+    float:right;
+    margin-right: 130px;
+    margin-top: -340px;
+    width: 54%
+}
+    
+#e{
+    display: flex;
+    float: left;
+    width: 33%;
+    height: 100%;
+}
+
+#hijoE1{
+    display: flex;
+    float: left;
+    width: 100%;
+    height: 200px;
+}
+
+#texto2{
+    color: white;
+}
+
+#caja3{
+    float: left;
+    background-color: #414143;
+    width: 93%;
+    height: 250px;
+}
+
+#cajape{
+    float: left;
+    margin-left: 80px 80px;
+    margin: 20px;
+    width: 17%;
+    height: 200px;
+}
+
+#texto3{    
+    color: white;
+}
+
+section{
+    padding: 20px
+}
